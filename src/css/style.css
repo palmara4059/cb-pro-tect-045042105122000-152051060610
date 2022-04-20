@@ -76,6 +76,8 @@ header .container {
 header .container .aleft {
     margin-top: 20px;
     margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
 }
 
 header .container .aright {
@@ -92,6 +94,8 @@ header .container a {
     border-radius: 10px;
     transition: .5s ease-out;
     font-weight: 500;
+    color: #fff;
+    text-decoration: none;
 }
 
 header .container a:hover {
@@ -242,6 +246,8 @@ header .container .aright .alogin:hover {
     padding: 8px 30px;
     border-radius: 10px;
     transition: .5s ease-out;
+    color: #fff;
+    text-decoration: none;
 }
 
 .accueil .container .add-bot .addleft {
