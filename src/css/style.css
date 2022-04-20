@@ -51,6 +51,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 
 /*----------[Body]----------*/
@@ -253,6 +254,8 @@ header .container .aright .alogin:hover {
 
 .accueil .container .add-bot .addright {
     background: #2e2e2e;
+    color: #fff;
+    text-decoration: none;
 }
 
 .accueil .container .add-bot .addright:hover {
@@ -336,6 +339,7 @@ header .container .aright .alogin:hover {
     margin-left: 10px;
     margin-right: 10px;
     background: #1d1d1d;
+    text-decoration: none;
     color: #fff;
 }
 
