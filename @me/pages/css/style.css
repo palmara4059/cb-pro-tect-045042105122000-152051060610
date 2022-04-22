@@ -1,0 +1,206 @@
+/*----------[Body]----------*/
+
+* {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #000000aa;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #6571f3;
+}
+
+.gotop {
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    width: 38px;
+    height: 38px;
+    background: #6571f3;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    transition: .5s ease-out;
+}
+
+.gotop:hover {
+    background: #6571f3;
+}
+
+
+body {
+    background: #1d1d1d;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+/*----------[Body]----------*/
+
+/*----------[Header]----------*/
+
+header {
+    background: #4752c4;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+header .container h3 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/*----------[Header]----------*/
+
+/*----------[Section]----------*/
+
+.section {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.servers {
+    height: auto;
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.servers h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.servers button {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background: #4752c4;
+    color: #fff;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
+}
+
+.servers .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.servers .container .server {
+    width: 300px;
+    height: auto;
+    background: #141414;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+
+.servers .container .server .servBck {
+    background: url("https://app.gitbook.com/public/app/assets/default-page-cover-K4LPTE6Y.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40vh;
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    transition: .5s ease-out;
+}
+
+.servers .container .server .servBck:hover {
+    background-size: 45vh;
+}
+
+.servers .container .server .servBck img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servers .container .server .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.servers .container .server .content h5{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 25px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.servers .container .server .content p{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.servers .container .server .content button{
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    border: none;
+    background: #181818;
+    color: #fff;
+    font-size: 15px;
+}
+
+/*----------[Section]----------*/
