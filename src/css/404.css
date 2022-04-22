@@ -1,0 +1,83 @@
+.error {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family       : 'Montserrat', sans-serif;
+}
+
+.error-container {
+    background: #141414;
+    padding: 48px;
+    box-shadow: #060e1a 0px 3px 8px;
+    width:350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+}
+
+.error-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.error-box h1 {
+    color      : #4752c4;
+    font-size: 100px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-box h3 {
+    text-align: center;
+}
+
+.error-box p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.error-box p a {
+    text-align: center;
+    font-size: 16px;
+    color      : #4752c4;
+}
+
+#SeparClass {
+    width: 90%;
+    height: 1px;
+    background: #344050;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ReturnLogin {
+    background: #404fef;
+    padding: 5px 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #fff;
+    font-family       : 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    transition: .5s ease-out;
+}
+
+.ReturnLogin:hover {
+    background: #262e88;
+}
+
+@media screen and (max-width: 1280px) {
+    .error-container {
+        width:auto;
+    }
+}
