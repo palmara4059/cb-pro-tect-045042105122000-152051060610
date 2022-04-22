@@ -1,4 +1,0 @@
-{
-    "moderation": "/ban, /kick,\n/mute, /unmute,\n/clear",
-    "autres": "/userinfo,\n/serverinfo\n/staff"
-}
